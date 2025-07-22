@@ -1,0 +1,8 @@
+flask
+openai
+pandas
+langchain
+langchain-community
+langchain-experimental
+bcrypt
+python-dotenv

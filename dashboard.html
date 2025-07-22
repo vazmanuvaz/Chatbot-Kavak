@@ -1,0 +1,10 @@
+<h2>Asistente de Análisis - Kavak</h2>
+<form method="post">
+  <textarea name="pregunta" rows="3" cols="60" placeholder="Escribí tu consulta..."></textarea><br>
+  <button type="submit">Consultar</button>
+</form>
+{% if respuesta %}
+  <hr><strong>Respuesta:</strong>
+  <p>{{ respuesta }}</p>
+{% endif %}
+<a href="/logout">Salir</a>

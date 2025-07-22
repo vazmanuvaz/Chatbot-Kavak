@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: kavak-chatbot
+    env: python
+    startCommand: gunicorn backend.app:app
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: SECRET_KEY
+        sync: false
