@@ -6,3 +6,4 @@ langchain-community
 langchain-experimental
 bcrypt
 python-dotenv
+gunicorn
